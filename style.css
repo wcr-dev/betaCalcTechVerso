@@ -85,7 +85,7 @@ body {
 #resultGrade, #result { /* Supondo que resultElement tenha um id de resultGrade */
     display: inline-block;
     text-align: center; /* Definindo text-align no elemento pai */
-    font-size: 130%;
+    font-size: 110%;
     font-weight: bold;
 }
 
@@ -108,5 +108,5 @@ body {
 .bold-underline {
     font-weight: bold;
     text-decoration: underline;
-    font-size: 115%;
+    font-size: 110%;
 }
