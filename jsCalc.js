@@ -28,7 +28,7 @@ function calculateGrade() {
     if (!isNaN(grade3)) {
         if (grade3 >= 5) {
             document.getElementById('grade3').value = '';
-            alert("Com uma nota de " + grade3.toFixed(2) + ", na sua Média \nentre AVA e Prova Bimestral. \nVocê já estaria aprovado!!! \n\n\nPor favor insira um valor menor que 5,00");
+            alert("Com uma nota de " + grade3.toFixed(2) + "de Média, \nentre AVA e Prova Bimestral. \n\nVocê já estaria aprovado!!! \n\n\nPor favor insira um valor menor que 5,00");
             return;
         }
     } else {
