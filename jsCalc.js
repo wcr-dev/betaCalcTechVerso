@@ -50,6 +50,14 @@ function calculateGrade() {
     }
 }
 
+document.getElementById('gradeForm').addEventListener('reset', function() {
+    document.getElementById('result').innerHTML = '';
+});
+
+document.getElementById('gradeFormExame').addEventListener('reset', function() {
+    document.getElementById('resultGrade').innerHTML = '';
+});
+
 
 function launchConfetti() {
     const duration = 5 * 1000; // duração da animação em milissegundos

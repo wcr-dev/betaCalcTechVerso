@@ -23,10 +23,10 @@ body {
 
 /* Botão */
 .btn {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: calc(50% - 10px);
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: #007bff;
     color: white;
     border: none;
@@ -37,6 +37,14 @@ body {
 
 .btn:hover {
     background-color: #0056b3;
+}
+        
+.btn-reset {
+    background-color: #dc3545;
+}
+
+.btn-reset:hover {
+    background-color: #c82333;
 }
 
 /* Botão flutuante */
